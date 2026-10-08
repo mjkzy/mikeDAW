@@ -1,6 +1,8 @@
 # mikeDAW
 a free &amp; cross platform DAW that is easy for beginners to use with features like real-time Multiplayer
 
+<img width="1914" height="1039" alt="image" src="https://github.com/user-attachments/assets/b5deb3ed-5481-4688-8f54-eab4a7f5d143" />
+
 ## Download
 to test it out, [you can download the pre-release of mikeDAW here](https://github.com/mjkzy/mikeDAW/releases/tag/v0.1.0).
 
