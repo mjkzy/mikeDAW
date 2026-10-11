@@ -46,11 +46,5 @@ i do not provide the VST2 SDK or the ASIO SDK in this repository. mikeDAW suppor
 - **VST2** - point CMake at the VST2 SDK with `-DOPENDAW_VST2_SDK_PATH=<path>`. without it the build is VST3-only.
 - **ASIO** - point CMake at the ASIO SDK with `-DOPENDAW_ASIO_SDK_PATH=<path>`. without it the build uses WASAPI/DirectSound.
 
-## Open Source
-the code is now open source. i do not plan to actively maintain this and will only fix bugs for a while.
-
-this was assisted with AI, so there is slop everything as I did not start a final cleanup stage to make it look less sloppy. i apologize.
-
 ## License
 mikeDAW is licensed under the GNU Affero General Public License v3.0. See [LICENSE](LICENSE).
-Third-party components and their terms are listed in [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md).
