@@ -25,7 +25,7 @@ to test it out, [you can download the pre-release of mikeDAW here](https://githu
 - **themes** - fully themeable colours with hot-reload.
 
 ## Building
-requirements: CMake 3.22+ and Visual Studio 2022+ with the C++ workload.
+requires CMake 3.22+ and Visual Studio 2022+ with the C++ workload
 
 ```bat
 git clone https://github.com/mjkzy/mikeDAW.git
