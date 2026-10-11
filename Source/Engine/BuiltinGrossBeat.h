@@ -32,7 +32,7 @@ public:
 
     GrossBeatProcessor();
 
-    juce::String effectName() const override { return "Gross Beat"; }
+    juce::String effectName() const override { return "Nasty Beat"; }
 
     void prepareToPlay (double sampleRate, int blockSize) override;
     void reset() override;

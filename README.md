@@ -16,7 +16,7 @@ to test it out, [you can download the pre-release of mikeDAW here](https://githu
 - **playlist** - pattern, audio and automation clips, waveforms, clip slicing and per-track lanes.
 - **automation clips** - automate mixer track and channel volume/pan with editable curves.
 - **mixer** - master + up to 64 inserts, 10 effect slots per insert, routing, stereo separation, peak meters, with a slot rack or a device chain view.
-- **built-in effects** - EQ, parametric EQ, delay, delay bank, reverb, convolution reverb, limiter, multiband compressor, soft clipper, a Gross Beat-style effect and more.
+- **built-in effects** - EQ, parametric EQ, delay, delay bank, reverb, convolution reverb, limiter, multiband compressor, soft clipper, a Nasty Beat-style effect and more.
 - **sampler** - sample start/length, fades, declick, pitch/fine tune, root note, reverse, normalize and pitch detection.
 - **audio recording** - record audio inputs into the playlist with latency compensation, and record notes from the typing keyboard.
 - **easyFLP project import/export** - open `.flp` files and export projects back to an FL zip.

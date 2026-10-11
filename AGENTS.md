@@ -470,7 +470,7 @@ exports are for. Loads run `relinkBundledSamples`. Save/open/export dialogs defa
   `convolver`→`ConvolverProcessor` (convolution reverb, IR presets + custom IR load/save);
   `parterre`→`ParterreProcessor` (4-bed resonant filter bank);
   `equivocal`→`EquivocalProcessor` (25-program glitch delay/reverb, editor in
-  `BuiltinEquivocalEditor.cpp`); `grossbeat`→`GrossBeatProcessor` (Gross Beat-style effect:
+  `BuiltinEquivocalEditor.cpp`); `grossbeat`→`GrossBeatProcessor` (Nasty Beat-style effect:
   36 time + 36 volume envelope slots, 12 s ring buffer, playhead-synced). All derive from
   `BuiltinEffectBase`, stereo in/out.
   **State format = parameter order**: `getStateInformation` writes raw floats in
@@ -552,7 +552,7 @@ exports are for. Loads run `relinkBundledSamples`. Save/open/export dialogs defa
 - **FLPImport** — `importFile(flp, host)`, FL 20.0.5–26: rack/patterns/playlist/mixer; VSTs
   matched against the cache; FL-native plugins → warnings, except the ones **FLNativeFx**
   converts both ways (Fruity Parametric EQ 2 <-> `parameq`, Fruity Soft Clipper <->
-  `softclip`, Gross Beat <-> `grossbeat`; layouts in `.knowledge/FLP.md` "FL-native effect states"). **FLPExport** —
+  `softclip`, Nasty Beat <-> `grossbeat`; layouts in `.knowledge/FLP.md` "FL-native effect states"). **FLPExport** —
   `exportAsZip(project, zip)`; `Vst3ClassId::extractClassId` writes real VST3 TUIDs; VST2 state
   round-trips via `Vst2Fxb.h` (21-byte Fruity Wrapper frame + big-endian CcnK/FBCh fxBank).
   **MidiImport** — `applyToChannelSeq(file, pattern, seq)`. Iteration tooling (gitignored,
@@ -789,7 +789,7 @@ dimmed/silent. Live mic mirroring is deliberately NOT implemented.
   `juce_add_gui_app` (line 44). The `juce_add_gui_app` one is what drives
   `JUCE_APPLICATION_VERSION_STRING` (window title + the update check) and the exe
   `ProductVersion` (which `release-private.ps1` reads for the installer). Then run `release-private.ps1`
-  (Release + Themida + Inno → `dist\mikeDAW-Setup.exe`), then
+  (Release → `dist\mikeDAW-Setup.exe`), then
   `.\push-update.ps1 -Installer dist\mikeDAW-Setup.exe -Version x.y.z -Notes @("...","...")` from a
   PowerShell prompt, one string per change - the client bullets them (uploads the
   installer + rewrites `latest.json` on the update server). Clients on older builds prompt on

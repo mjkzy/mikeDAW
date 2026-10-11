@@ -74,7 +74,7 @@ namespace
         if (type == "convolver") return "Convolver";
         if (type == "parterre") return "Parterre";
         if (type == "equivocal") return "Equivocal";
-        if (type == "grossbeat") return "Gross Beat";
+        if (type == "grossbeat") return "Nasty Beat";
         if (auto xml = juce::parseXML (slot.getProperty (IDs::pluginDesc).toString()))
         {
             juce::PluginDescription desc;
@@ -2246,7 +2246,7 @@ void MixerPanel::showAddEffectMenu (int trackIndex, int slotIndex, juce::Compone
     extras.push_back ({ 13, "Add Convolver" });
     extras.push_back ({ 14, "Add Parterre" });
     extras.push_back ({ 15, "Add Equivocal" });
-    extras.push_back ({ 16, "Add Gross Beat" });
+    extras.push_back ({ 16, "Add Nasty Beat" });
 
     PluginPickerPopup::show (*target, effects, extras,
         [safe = juce::Component::SafePointer<MixerPanel> (this), trackIndex, slotIndex] (const juce::PluginDescription& desc)

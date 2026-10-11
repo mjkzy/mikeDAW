@@ -9,7 +9,7 @@ namespace
 {
     const char* const kParamEqName    = "Fruity Parametric EQ 2";
     const char* const kSoftClipName   = "Fruity Soft Clipper";
-    const char* const kGrossBeatName  = "Gross Beat";
+    const char* const kGrossBeatName  = "Nasty Beat";
 
     int32_t i32At (const std::vector<uint8_t>& d, size_t o)
     {

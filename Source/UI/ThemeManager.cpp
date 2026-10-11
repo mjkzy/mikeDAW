@@ -71,11 +71,11 @@ const std::vector<ThemeManager::Slot>& ThemeManager::registry()
         add ("eqCurve",         "EQ Curve",            "Controls & Misc", &Colors::eqCurve);
         add ("eqHeat",          "EQ Heatmap",          "Controls & Misc", &Colors::eqHeat);
         add ("eqHeatHot",       "EQ Heatmap Peak",     "Controls & Misc", &Colors::eqHeatHot);
-        add ("gbPanel",         "Gross Beat Panel",    "Controls & Misc", &Colors::gbPanel);
-        add ("gbEnvBg",         "Gross Beat Envelope", "Controls & Misc", &Colors::gbEnvBg);
-        add ("gbGrid",          "Gross Beat Grid",     "Controls & Misc", &Colors::gbGrid);
-        add ("gbTime",          "Gross Beat Time",     "Controls & Misc", &Colors::gbTime);
-        add ("gbVolume",        "Gross Beat Volume",   "Controls & Misc", &Colors::gbVolume);
+        add ("gbPanel",         "Nasty Beat Panel",    "Controls & Misc", &Colors::gbPanel);
+        add ("gbEnvBg",         "Nasty Beat Envelope", "Controls & Misc", &Colors::gbEnvBg);
+        add ("gbGrid",          "Nasty Beat Grid",     "Controls & Misc", &Colors::gbGrid);
+        add ("gbTime",          "Nasty Beat Time",     "Controls & Misc", &Colors::gbTime);
+        add ("gbVolume",        "Nasty Beat Volume",   "Controls & Misc", &Colors::gbVolume);
 
         return t;
     }();
