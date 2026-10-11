@@ -1,0 +1,33 @@
+/build/
+/build-linux/
+external/JUCE/
+external/imgui/
+.vs/
+*.user
+/build32/
+.claude/
+
+# release artifacts
+/dist/
+/build-public/
+/build-public32/
+/packaging/*.tmd
+Source/Net/BuildStamp.h
+/packaging/build-counter.txt
+/packaging/build-ledger.csv
+
+/KNOWLEDGE/
+/.knowledge/
+
+docs/
+
+push-update.ps1
+release-private.ps1
+release.ps1
+run.ps1
+run.sh
+/installer/
+/packaging/
+
+# closed source server
+/server/
